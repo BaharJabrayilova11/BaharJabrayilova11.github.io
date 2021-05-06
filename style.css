@@ -1,0 +1,169 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    height: 700px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav #li{
+   display: flex;
+}
+header .container #css{
+    display: flex !important; 
+}
+#gla img{
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+#Man ul li{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    margin-right: 25px;
+}
+#logo{
+    width: 700px;
+    text-align: center;
+}
+#nav2 ul{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+#nav2 ul li{
+    font-size: 16px;
+    margin-right: 30px;
+}
+#gla h1{
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 70px;
+}
+#gla h2{
+    opacity: 0.6;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
+#button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(85, 84, 84);
+    margin-right: 25px;
+}
+#button1{
+    font-size: 25px;
+    color: rgb(85, 84, 84);
+    margin-right: 20px;
+    text-align: center;
+}
+section table{
+    border: none;
+    outline: none;
+}
+#rr1{
+    background-color: rgb(189, 188, 188);
+    color: white;
+    font-size: 30px;
+}
+#rr2{
+    background-color: rgb(116, 116, 116);
+    color: white;
+    font-size: 30px;
+}
+#rr2 button{
+    background-color: rgb(156, 105, 8);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border: none;
+}
+#rr4{
+    background-color: rgb(199, 199, 199);
+    color: white;
+    font-size: 25px;
+    width: 350px;
+}
+#rr3{
+    background-color: rgb(175, 166, 166);
+    color: white;
+    font-size: 25px;
+    width: 350px;
+}
+#rr5{
+    background-color: rgb(177, 177, 177);
+    color: white;
+    font-size: 25px;
+    width: 350px;
+}
+section #new h1{
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+}
+section #new button{
+    padding: 5px 0 5px 0;
+    width: 100px;
+    border: none;
+    background-color: rgb(180, 180, 180);
+}
+#section0 h1{
+    text-align: center;
+    color: rgb(26, 26, 26);
+    font-size: 50px;
+    padding-top: 20px;
+}
+#section0 button{
+    height: 30px;
+    width: 100px;
+    padding: 10px 0 10px 0;
+    color: rgb(26, 26, 26);
+    text-align: center;
+    border: none;
+}
+#umumi{
+    display: flex;
+    justify-content: center;
+}
+.basliq{
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.acqi{
+    font-size: 15px;
+    color: rgb(128, 125, 125);
+    margin-top: 10px;
+}
+@media(max-width:500px){
+    #gla img{
+          width: 250px; 
+    }
+    header nav{
+        flex-direction: column;
+    }
+    #gla h2 {
+        margin-left: 0px;
+        width: 300px;
+    }
+    #umumi{
+        flex-direction: column;
+    }
+}
